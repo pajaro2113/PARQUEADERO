@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 </head>
+
+
 <body>
     <header class="header">
         <div class="header-menu">
@@ -27,13 +29,11 @@
         <section class="header-arena">
             <div class="header-arena-parqueadero">
                 <div class="header-arena-parqueadero-camion1">
-                    <div class="header-arena-parqueadero-camion1-c1">
-                        <h1 class="header-arena-parqueadero-camion1-c1-h1">1</h1>
-                        <label><input class="header-arena-parqueadero-camion1-c1-check" type="checkbox" id="cbox1" value="first_checkbox"></label>
+                    <div class="header-arena-parqueadero-camion1-c1" id="c1">
+                        <button class="header-arena-parqueadero-camion1-c1-boton" type="button" id="boton1" onclick="cambioEstado(event)">01</button>
                     </div>
-                    <div class="header-arena-parqueadero-camion1-c1">
-                        <h1 class="header-arena-parqueadero-camion1-c1-h1">2</h1>
-                        <label><input class="header-arena-parqueadero-camion1-c1-check" type="checkbox" id="cbox1" value="first_checkbox"></label>
+                    <div class="header-arena-parqueadero-camion1-c1" id="c2">
+                        <button class="header-arena-parqueadero-camion1-c1-boton" type="button" id="boton2" onclick="cambioEstado(event)">02</button>
                     </div>
                 </div>
                 <div class="header-arena-parqueadero-car1">
@@ -91,5 +91,6 @@
             </div>
         </section>
     </header>
+    <script src="parqueo.js"></script>
 </body>
 </html>

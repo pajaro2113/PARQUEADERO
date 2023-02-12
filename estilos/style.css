@@ -5,6 +5,10 @@
   font-family: "Varela Round", sans-serif;
 }
 
+.ocupado {
+  background-color: #1f4180;
+}
+
 .header {
   width: 100%;
   height: 100vh;
@@ -84,6 +88,14 @@
 }
 .header-arena-parqueadero-camion1-c1-check:checked {
   background-color: rgb(211, 233, 13);
+}
+.header-arena-parqueadero-camion1-c1-boton {
+  width: 27px;
+  height: 27px;
+  margin: 10px;
+}
+.header-arena-parqueadero-camion1-c1.azul {
+  background: #1f4180;
 }
 .header-arena-parqueadero-car1 {
   display: flex;
