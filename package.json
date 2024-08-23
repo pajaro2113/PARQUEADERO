@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "- El dia 9 de febrero termine primer plano y primer diseño de parqueadero ( solo interfaz grafica)",
   "main": "parqueo.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "restart": "node --watch src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,8 @@
   },
   "homepage": "https://github.com/pajaro2113/PARQUEADERO#readme",
   "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
     "pg": "^8.12.0"
-  },
-  "devDependencies": {}
+  }
 }
